@@ -6,7 +6,7 @@
 * <https://platform.openai.com/playground?assistant=asst_ZG6Cq4ic0J40UBkeMS50ssDA&mode=assistant&thread=thread_E6YhgNVnFUeQvNN6Ekr7tRl9>
 * <https://youtu.be/BqnyGSLQMS8?si=1sMWH-CB5RWFyRAf> OpenAI Assistants API Tutorial - Playground & NodeJS Youtube
 
-[![OpenAI Assistants API Tutorial - Playground & NodeJS](https://img.youtube.com/vi/si=zaZFYXBQPVVhZn6U/maxresdefault.jpg)](https://youtu.be/BqnyGSLQMS8?si=zaZFYXBQPVVhZn6U)
+[![OpenAI Assistants API Tutorial - Playground & NodeJS](https://img.youtube.com/vi/zaZFYXBQPVVhZn6U/maxresdefault.jpg)](https://youtu.be/BqnyGSLQMS8?si=zaZFYXBQPVVhZn6U)
 
 https://youtu.be/BqnyGSLQMS8?si=zaZFYXBQPVVhZn6U
 
