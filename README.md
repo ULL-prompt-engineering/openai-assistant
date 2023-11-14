@@ -7,6 +7,7 @@
 * <https://youtu.be/BqnyGSLQMS8?si=1sMWH-CB5RWFyRAf> OpenAI Assistants API Tutorial - Playground & NodeJS Youtube
 
 [![OpenAI Assistants API Tutorial - Playground & NodeJS](https://img.youtube.com/vi/si=zaZFYXBQPVVhZn6U/maxresdefault.jpg)](https://youtu.be/BqnyGSLQMS8?si=zaZFYXBQPVVhZn6U)
+
 https://youtu.be/BqnyGSLQMS8?si=zaZFYXBQPVVhZn6U
 
 ## OpenAI Playground
