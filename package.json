@@ -4,7 +4,7 @@
   "description": "## Reference",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "ts-node assistant-function-calling/app.ts",
     "save": "git ci -am tutor; git push"
   },
   "keywords": [],
