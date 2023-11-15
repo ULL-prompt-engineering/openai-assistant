@@ -59,5 +59,5 @@ To which I answered:
 Do you want to keep having a conversation? (yes/no) no
 Alrighty then, I hope you learned something!
 ```
-
+(Notice how the LLM uses $\LaTeX$ to write the formulae $\[ A = \frac{1}{2} \times 6 \times 4 = 12 \]$)
 and the program ended.
