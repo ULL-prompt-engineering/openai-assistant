@@ -7,7 +7,7 @@
 * Cookbook. Assistants API Overview (Python SDK): <https://cookbook.openai.com/examples/assistants_api_overview_python>
 * Tutorial: Get started with the new OpenAI Assistants API by Ralf Elfving <https://medium.com/@ralfelfving/tutorial-get-started-with-the-new-openai-assistants-api-7049c2517bfe>
 
-## Execution
+## Execution 1
 
 ```
 ➜  assistant-function-calling git:(main) ✗ ts-node app.ts
@@ -63,7 +63,7 @@ Do you want to keep having a conversation? (yes/no) n
 Alrighty then, I hope you learned something!
 ```
 
-## Execution
+## Execution 2
 
 ```
 ➜  assistant-function-calling git:(main) ✗ ts-node app.ts
