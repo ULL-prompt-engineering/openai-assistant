@@ -55,9 +55,10 @@ However, there was a slight mistake with the second question. The expression \( 
 
 Do you want to keep having a conversation? (yes/no) 
 ```
-Please, take notice how the LLM uses 
-$\LaTeX$ to write the formulae like 
-$2^3 \times 5^2$ and $8 \times 25$
+Please, take notice of
+1. How the LLM uses  $\LaTeX$ to write the formulae like $2^3 \times 5^2$ and $8 \times 25$
+2. The discussion about the answer to the second question. The assistant is able to understand that I spotted the correct answer but may have marked it incorrectly. This seems to be an allucination or may be due to the `"\n"` at the end of the `"200\n"`.
+
 
 To the last question I answered:
 
