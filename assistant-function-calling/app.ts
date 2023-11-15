@@ -36,9 +36,7 @@ async function main() {
                     function: quizJson,
                 },
             ],
-            // will work much better with the new model
-            model: "gpt-4-1106-preview",
-            // model: "gpt-3.5-turbo-1106",
+            model: "gpt-4-1106-preview", // model: "gpt-3.5-turbo-1106",
         });
         console.error(`assistant: ${inspect(assistant)}`)
 
@@ -73,8 +71,7 @@ async function main() {
             });
 
             let actualRun = await openai.beta.threads.runs.retrieve(
-                thread.id,
-                run.id,
+                thread.id, run.id,
             );
             console.error(`actualRun: ${inspect(actualRun)}`)
 
@@ -124,6 +121,7 @@ async function main() {
 
             // Get the last assistant message from the messages array
             const messages = await openai.beta.threads.messages.list(thread.id);
+            console.error(`messages: ${inspect(messages)}`)
 
             // Find the last message for the current run
             const lastMessageForRun = messages.data
@@ -157,6 +155,7 @@ async function main() {
         // close the readline
         readline.close();
         
+        // Delete the assistant and thread
         openai.beta.threads.del(thread.id);
         openai.beta.assistants.del(assistant.id);
     } catch (error) {
