@@ -54,7 +54,7 @@ async function displayQuiz(title: string, questions: Record<string, string>[]) {
 }
 
 const quizJson = {
-  name: "display_quiz",
+  name: "displayQuiz",
   description:
     "Displays a quiz to the student, and returns the student's response. A single quiz can have multiple questions.",
   parameters: {

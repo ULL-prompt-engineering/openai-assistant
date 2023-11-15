@@ -15,6 +15,62 @@
 Hello there, I'm a Math assistant. We'll start with a small quiz.
 
 Quiz :
+ displayQuiz
+Question: Explain why the sum of two even numbers is always even.
+      _
+```
+
+Then I answered:
+
+```
+      By the distributive law: `2*n+2*p=2*(n+p)`
+```
+
+Then the assistant replied with a new question:
+    
+```
+Question: What is the value of x in the equation 2x + 3 = 15?
+
+      Options: 5,6,7,8
+      _
+```
+I answered:
+
+```
+      6
+```
+    
+Then the assistant answered:
+        
+```
+Your responses from the quiz :
+ [ 'By the distributive law: `2*n+2*p=2*(n+p)`\n', '6\n' ]
+Great job on both questions!
+
+1. Your explanation for why the sum of two even numbers is correct. It's indeed because you can factor out a 2, which means the sum is still a multiple of 2, and hence even.
+
+2. You chose the correct answer for the value of \( x \) in the equation \( 2x + 3 = 15 \). The solution is \( x = 6 \), which you can find by subtracting 3 from both sides and then dividing by 2. 
+
+Do you want to keep having a conversation? (yes/no) _
+```
+
+Please, take notice of how the LLM uses  $\LaTeX$ to write the formulae like $2x + 3 = 15$
+
+To the last question I answered:
+
+```
+Do you want to keep having a conversation? (yes/no) n
+Alrighty then, I hope you learned something!
+```
+
+## Execution
+
+```
+➜  assistant-function-calling git:(main) ✗ ts-node app.ts
+
+Hello there, I'm a Math assistant. We'll start with a small quiz.
+
+Quiz :
  display_quiz
 Question: Explain the difference between a prime number and a composite number.
 
