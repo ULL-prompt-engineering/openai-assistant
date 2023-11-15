@@ -27,5 +27,5 @@
 ### Assistants and Playground
 
 * <https://platform.openai.com/docs/assistants/overview?lang=node.js>
-* <https://youtu.be/BqnyGSLQMS8?si=1sMWH-CB5RWFyRAf> OpenAI Assistants API Tutorial - Playground & NodeJS Youtube
+* See <https://youtu.be/BqnyGSLQMS8?si=1sMWH-CB5RWFyRAf> "OpenAI Assistants API Tutorial - Playground & NodeJS" at Youtube
 * [OpenAI Assistants API Tutorial - Playground & NodeJS](https://youtu.be/BqnyGSLQMS8?si=zaZFYXBQPVVhZn6U) https://youtu.be/BqnyGSLQMS8?si=zaZFYXBQPVVhZn6U
