@@ -1,4 +1,6 @@
-## Folders
+# Learning the OpenAI Assistants API
+
+## Folders in this Repo
 
 - [assistant-function-calling](assistant-function-calling/README.md)
 - [fernando-assistant-function-calling](fernando-assistant-function-calling/README.md)
