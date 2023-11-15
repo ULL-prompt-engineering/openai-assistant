@@ -23,7 +23,7 @@ async function askQuestion(question: string) {
 async function main() {
   try {
     const assistant = await openai.beta.assistants.create({
-      name: "Math Tutor",
+      name: "Math Tutor with only code-interpreter",
       instructions:
         "You are a personal math tutor. Write and run code to answer math questions.",
       tools: [{ type: "code_interpreter" }],

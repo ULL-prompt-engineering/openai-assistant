@@ -85,7 +85,7 @@ let isQuizAnswered = false;
 async function main() {
   try {
     const assistant = await openai.beta.assistants.create({
-      name: "Math Tutor",
+      name: "Math Tutor with functions and retrieval",
       instructions:
         "You are a personal math tutor. Answer questions briefly, in a sentence or less.",
       tools: [
@@ -104,7 +104,7 @@ async function main() {
 
     // Log the first greeting
     console.log(
-      "\nHello there, I'm Fernando's personal Math assistant. We'll start with a small quiz.\n",
+      "\nHello there, I'm a Math assistant. We'll start with a small quiz.\n",
     );
 
     // Create a thread
