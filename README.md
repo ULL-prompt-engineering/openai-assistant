@@ -1,0 +1,3 @@
+- [assistant-function-calling](assistant-function-calling/README.md)
+- [fernando-assistant-function-calling](fernando-assistant-function-calling/README.md)
+- [assistants-and-playground](assistants-and-playground/README.md)
