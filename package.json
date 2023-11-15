@@ -6,6 +6,9 @@
   "scripts": {
     "fc": "ts-node assistant-function-calling/app.ts",
     "rlt": "node assistant-function-calling/readline-test.js",
+    "test": "ts-node assistant-function-calling/app.ts 2> logs.log",
+    "start": "ts-node fernando-assistant-function-calling/assistant.ts",
+    "functions": "ts-node fernando-assistant-function-calling/function-calling.ts",
     "save": "git ci -am tutor; git push"
   },
   "keywords": [],
