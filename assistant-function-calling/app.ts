@@ -92,9 +92,9 @@ async function main() {
             instructions:
                 "You are a personal math tutor. Answer questions briefly, in a sentence or less.",
             tools: [
-                { type: "code_interpreter" },
+                //{ type: "code_interpreter" },
                 // todo: necessary?
-                { type: "retrieval" },
+                //{ type: "retrieval" },
                 {
                     type: "function",
                     function: quizJson,
@@ -154,6 +154,7 @@ async function main() {
                         actualRun.required_action?.submit_tool_outputs?.tool_calls[0];
 
                     const name = toolCall?.function.name;
+                    console.error(`Tool function name asked: ${name}`);
 
                     const args = JSON.parse(toolCall?.function?.arguments || "{}");
                     const questions = args.questions;
