@@ -59,6 +59,6 @@ To which I answered:
 Do you want to keep having a conversation? (yes/no) no
 Alrighty then, I hope you learned something!
 ```
-Please, take notice how the LLM uses $\LaTeX$ to write the formulae \[ A = \frac{1}{2} \times 6 \times 4 = 12 \]
+Please, take notice how the LLM uses $\LaTeX$ to write the formulae like $A = \frac{1}{2} \times \text{base} \times \text{height}$ and $A = \frac{1}{2} \times 6 \times 4 = 12$
 
 and the program ended.
