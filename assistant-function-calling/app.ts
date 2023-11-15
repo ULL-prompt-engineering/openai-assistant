@@ -1,3 +1,5 @@
+import util from 'util';
+const inspect = (obj: any) => util.inspect(obj, { depth: null });
 
 import * as dotenv from 'dotenv';
 dotenv.config({ path: '../.env' });
@@ -93,7 +95,6 @@ async function main() {
                 "You are a personal math tutor. Answer questions briefly, in a sentence or less.",
             tools: [
                 //{ type: "code_interpreter" },
-                // todo: necessary?
                 //{ type: "retrieval" },
                 {
                     type: "function",
@@ -104,6 +105,7 @@ async function main() {
             model: "gpt-4-1106-preview",
             // model: "gpt-3.5-turbo-1106",
         });
+        console.error(`assistant: ${inspect(assistant)}`)
 
         // Log the first greeting
         console.log(
@@ -112,6 +114,7 @@ async function main() {
 
         // Create a thread
         const thread = await openai.beta.threads.create();
+        console.error(`thread: ${inspect(thread)}`)
 
         // Use keepAsking as state for keep asking questions
         let keepAsking = true;
@@ -138,6 +141,7 @@ async function main() {
                 thread.id,
                 run.id,
             );
+            console.error(`actualRun: ${inspect(actualRun)}`)
 
             // Polling mechanism to see if actualRun is completed
             // This should be made more robust.
@@ -217,6 +221,9 @@ async function main() {
 
         // close the readline
         readline.close();
+        
+        openai.beta.threads.del(thread.id);
+        openai.beta.assistants.del(assistant.id);
     } catch (error) {
         console.error(error);
     }
