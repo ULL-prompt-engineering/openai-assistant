@@ -1,11 +1,11 @@
 {
   "name": "assistant",
   "version": "1.0.0",
-  "description": "## Reference",
+  "description": "Learning to use the OpenAI API for Assistants",
   "main": "index.js",
   "scripts": {
     "fc": "ts-node assistant-function-calling/app.ts",
-    "rlt": "ts-node assistant-function-calling/readline-test.js",
+    "rlt": "node assistant-function-calling/readline-test.js",
     "save": "git ci -am tutor; git push"
   },
   "keywords": [],
