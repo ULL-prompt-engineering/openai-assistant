@@ -3,7 +3,7 @@
 See tutorial <https://dev.to/esponges/build-the-new-openai-assistant-with-function-calling-52f5>
 by Fernando González Tostado Nov 14 2023.
 
-## Execution of function-calling.ts
+## Example of execution of function-calling.ts
 
 ```
 ➜  fernando-assistant-function-calling git:(main) npm run functions
