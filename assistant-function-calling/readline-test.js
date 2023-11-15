@@ -46,8 +46,6 @@ async function main() {
       "Do you want to keep having a conversation? (yes/no) ",
     );
     continueConversation = continueAsking.toLowerCase().includes("y");
-
-    // If the continueConversation state is falsy show an ending message
   }
 
   console.log("Bye!\n");
