@@ -55,3 +55,13 @@ However, there was a slight mistake with the second question. The expression \( 
 
 Do you want to keep having a conversation? (yes/no) 
 ```
+Please, take notice how the LLM uses 
+$\LaTeX$ to write the formulae like 
+$2^3 \times 5^2$ and $8 \times 25$
+
+To the last question I answered:
+
+```
+Do you want to keep having a conversation? (yes/no) no
+Alrighty then, I hope you learned something!
+```
