@@ -1,5 +1,5 @@
 // import the required dependencies
-require('dotenv').config();
+require('dotenv').config('../.env');
 const OpenAI = require('openai');
 const readline = require('readline').createInterface({
   input: process.stdin,
