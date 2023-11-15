@@ -4,7 +4,8 @@
   "description": "## Reference",
   "main": "index.js",
   "scripts": {
-    "test": "ts-node assistant-function-calling/app.ts",
+    "fc": "ts-node assistant-function-calling/app.ts",
+    "rlt": "ts-node assistant-function-calling/readline-test.js",
     "save": "git ci -am tutor; git push"
   },
   "keywords": [],
